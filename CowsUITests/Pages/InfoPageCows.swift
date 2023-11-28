@@ -23,11 +23,11 @@ class InfoPageCows: PageProtocol {
     }
 
     private lazy var buttonInfoTabBar: XCUIElement = {
-        app.tabBars.buttons.element(boundBy: 0)
+        app.tabBars.children(matching: .button).element(boundBy: 0)
     }()
 
     private lazy var buttonTableCowTabBar: XCUIElement = {
-        app.tabBars.buttons.element(boundBy: 1)
+        app.tabBars.children(matching: .button).element(boundBy: 1)
     }()
 
     // MARK: - Actions

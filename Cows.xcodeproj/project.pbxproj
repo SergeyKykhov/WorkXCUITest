@@ -11,7 +11,25 @@
 		BF3C14F82AF53FB000BFF7AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C14F72AF53FB000BFF7AB /* ContentView.swift */; };
 		BF3C14FA2AF53FB100BFF7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3C14F92AF53FB100BFF7AB /* Assets.xcassets */; };
 		BF3C14FD2AF53FB100BFF7AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3C14FC2AF53FB100BFF7AB /* Preview Assets.xcassets */; };
+		BF3C15042AF5403B00BFF7AB /* TableViewCows.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C15032AF5403B00BFF7AB /* TableViewCows.swift */; };
+		BF3C15062AF5405300BFF7AB /* SwiftUIViewTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C15052AF5405300BFF7AB /* SwiftUIViewTabBar.swift */; };
+		BF3C150E2AF540E900BFF7AB /* CowsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C150D2AF540E900BFF7AB /* CowsUITests.swift */; };
+		BF3C15102AF540E900BFF7AB /* CowsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C150F2AF540E900BFF7AB /* CowsUITestsLaunchTests.swift */; };
+		BF3C15182AF5419400BFF7AB /* PageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C15172AF5419400BFF7AB /* PageProtocol.swift */; };
+		BF3C151A2AF541B400BFF7AB /* InfoPageCows.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C15192AF541B400BFF7AB /* InfoPageCows.swift */; };
+		BF3C151D2AF5430300BFF7AB /* CommonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C151C2AF5430300BFF7AB /* CommonTest.swift */; };
+		BF3C151F2AF5497400BFF7AB /* TablePageCows.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3C151E2AF5497400BFF7AB /* TablePageCows.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF3C15112AF540E900BFF7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3C14EA2AF53FB000BFF7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3C14F12AF53FB000BFF7AB;
+			remoteInfo = Cows;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF3C14F22AF53FB000BFF7AB /* Cows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cows.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +37,26 @@
 		BF3C14F72AF53FB000BFF7AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF3C14F92AF53FB100BFF7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3C14FC2AF53FB100BFF7AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF3C15032AF5403B00BFF7AB /* TableViewCows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCows.swift; sourceTree = "<group>"; };
+		BF3C15052AF5405300BFF7AB /* SwiftUIViewTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTabBar.swift; sourceTree = "<group>"; };
+		BF3C150B2AF540E900BFF7AB /* CowsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3C150D2AF540E900BFF7AB /* CowsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsUITests.swift; sourceTree = "<group>"; };
+		BF3C150F2AF540E900BFF7AB /* CowsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CowsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF3C15172AF5419400BFF7AB /* PageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProtocol.swift; sourceTree = "<group>"; };
+		BF3C15192AF541B400BFF7AB /* InfoPageCows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageCows.swift; sourceTree = "<group>"; };
+		BF3C151C2AF5430300BFF7AB /* CommonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTest.swift; sourceTree = "<group>"; };
+		BF3C151E2AF5497400BFF7AB /* TablePageCows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePageCows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF3C14EF2AF53FB000BFF7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3C15082AF540E900BFF7AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				BF3C14F42AF53FB000BFF7AB /* Cows */,
+				BF3C150C2AF540E900BFF7AB /* CowsUITests */,
 				BF3C14F32AF53FB000BFF7AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				BF3C14F22AF53FB000BFF7AB /* Cows.app */,
+				BF3C150B2AF540E900BFF7AB /* CowsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +89,8 @@
 			children = (
 				BF3C14F52AF53FB000BFF7AB /* CowsApp.swift */,
 				BF3C14F72AF53FB000BFF7AB /* ContentView.swift */,
+				BF3C15032AF5403B00BFF7AB /* TableViewCows.swift */,
+				BF3C15052AF5405300BFF7AB /* SwiftUIViewTabBar.swift */,
 				BF3C14F92AF53FB100BFF7AB /* Assets.xcassets */,
 				BF3C14FB2AF53FB100BFF7AB /* Preview Content */,
 			);
@@ -65,6 +103,35 @@
 				BF3C14FC2AF53FB100BFF7AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF3C150C2AF540E900BFF7AB /* CowsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C15162AF5416300BFF7AB /* Pages */,
+				BF3C151B2AF542C000BFF7AB /* Tests */,
+				BF3C150F2AF540E900BFF7AB /* CowsUITestsLaunchTests.swift */,
+			);
+			path = CowsUITests;
+			sourceTree = "<group>";
+		};
+		BF3C15162AF5416300BFF7AB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C15172AF5419400BFF7AB /* PageProtocol.swift */,
+				BF3C15192AF541B400BFF7AB /* InfoPageCows.swift */,
+				BF3C151E2AF5497400BFF7AB /* TablePageCows.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		BF3C151B2AF542C000BFF7AB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C151C2AF5430300BFF7AB /* CommonTest.swift */,
+				BF3C150D2AF540E900BFF7AB /* CowsUITests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +154,24 @@
 			productReference = BF3C14F22AF53FB000BFF7AB /* Cows.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BF3C150A2AF540E900BFF7AB /* CowsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3C15132AF540E900BFF7AB /* Build configuration list for PBXNativeTarget "CowsUITests" */;
+			buildPhases = (
+				BF3C15072AF540E900BFF7AB /* Sources */,
+				BF3C15082AF540E900BFF7AB /* Frameworks */,
+				BF3C15092AF540E900BFF7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3C15122AF540E900BFF7AB /* PBXTargetDependency */,
+			);
+			name = CowsUITests;
+			productName = CowsUITests;
+			productReference = BF3C150B2AF540E900BFF7AB /* CowsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +184,10 @@
 				TargetAttributes = {
 					BF3C14F12AF53FB000BFF7AB = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					BF3C150A2AF540E900BFF7AB = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BF3C14F12AF53FB000BFF7AB;
 					};
 				};
 			};
@@ -116,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				BF3C14F12AF53FB000BFF7AB /* Cows */,
+				BF3C150A2AF540E900BFF7AB /* CowsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +220,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF3C15092AF540E900BFF7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +234,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3C15062AF5405300BFF7AB /* SwiftUIViewTabBar.swift in Sources */,
 				BF3C14F82AF53FB000BFF7AB /* ContentView.swift in Sources */,
 				BF3C14F62AF53FB000BFF7AB /* CowsApp.swift in Sources */,
+				BF3C15042AF5403B00BFF7AB /* TableViewCows.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3C15072AF540E900BFF7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3C15102AF540E900BFF7AB /* CowsUITestsLaunchTests.swift in Sources */,
+				BF3C151F2AF5497400BFF7AB /* TablePageCows.swift in Sources */,
+				BF3C151D2AF5430300BFF7AB /* CommonTest.swift in Sources */,
+				BF3C15182AF5419400BFF7AB /* PageProtocol.swift in Sources */,
+				BF3C150E2AF540E900BFF7AB /* CowsUITests.swift in Sources */,
+				BF3C151A2AF541B400BFF7AB /* InfoPageCows.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF3C15122AF540E900BFF7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3C14F12AF53FB000BFF7AB /* Cows */;
+			targetProxy = BF3C15112AF540E900BFF7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BF3C14FE2AF53FB100BFF7AB /* Debug */ = {
@@ -322,6 +442,40 @@
 			};
 			name = Release;
 		};
+		BF3C15142AF540E900BFF7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6Z9MZV59H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.CowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cows;
+			};
+			name = Debug;
+		};
+		BF3C15152AF540E900BFF7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6Z9MZV59H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.CowsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cows;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +493,15 @@
 			buildConfigurations = (
 				BF3C15012AF53FB100BFF7AB /* Debug */,
 				BF3C15022AF53FB100BFF7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3C15132AF540E900BFF7AB /* Build configuration list for PBXNativeTarget "CowsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3C15142AF540E900BFF7AB /* Debug */,
+				BF3C15152AF540E900BFF7AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

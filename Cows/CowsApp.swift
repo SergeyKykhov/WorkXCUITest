@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct CowsApp: App {
+struct TestAPPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwiftUIViewTabBar()
         }
     }
 }
